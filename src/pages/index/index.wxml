@@ -51,21 +51,22 @@
 			</view>
 			<view class="scroll-bar">
 				<!--<swiper class="swiper-box" duration="300">
-					<swiper-item>-->
-						<template is="scrollXList" data="{{ scrollData }}"  />
-					<!--</swiper-item>
-				</swiper>-->
-			</view>
-		</view>
+				<swiper-item>
+					<template is="scrollXList" data="{{ scrollData }}"  />
+				</swiper-item>
+			</swiper>
+			-->
+				<template is="scrollXList" data="{{ scrollData }}"  />
 	</view>
-	<!-- End .view-content -->
-	<view class="view-footer">
-		<!-- 广告位  wx:if="{{banner}}" -->
-		<view class="adds_bar" bindtap="previewImageTap">
-			<image mode="aspectFill" src="{{banner}}" class="test"></image>
-		</view>
-	</view>
-	<!-- End .view-footer -->
-	
+</view>
+</view>
+<!-- End .view-content -->
+<view class="view-footer">
+<!-- 广告位  wx:if="{{banner}}" -->
+<view class="adds_bar" bindtap="previewImageTap">
+	<image mode="aspectFill" src="{{banner}}" class="test"></image>
+</view>
+</view>
+<!-- End .view-footer -->
 </view>
 

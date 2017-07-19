@@ -1,3 +1,4 @@
+@import "../../utils/wxParse/wxParse.wxss";
 .m-page__single {
     /*height: 100%;*/
     position: relative;
@@ -20,6 +21,6 @@
 
 .ft__nav .icon {
     width: 20px;
-    height: 20px;
+    height: 22px;
     margin-bottom: 5px;
 }

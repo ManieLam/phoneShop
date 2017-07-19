@@ -4,6 +4,8 @@
 
         "pages/index/index",
         "pages/index/shopDetail",
+        "pages/index/articalDetail",
+
         "pages/sales/sales",
         "pages/tools/tools",
         "pages/technique/technique"

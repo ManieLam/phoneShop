@@ -9,7 +9,7 @@
     width: 50%;
     padding-right: 2.5px;
     padding-left: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .single-cell:nth-child(2n) {
@@ -33,7 +33,7 @@
     }
     .bd_title {
         font-size: $font_mid;
-        @include line_clamp(2)
+        // @include line_clamp(2)
     }
     .bd_desc {
         padding-top: 5px;

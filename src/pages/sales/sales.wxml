@@ -1,6 +1,6 @@
 <import src="../template/hint.wxml" />
 <view class="m-single">
-	<view class="single-cell" wx:for="123456">
+	<navigator class="single-cell" wx:for="123456" url="../index/shopDetail">
 		<view class="single-block">
 			<view class="block_hd">
 				<image src="" mode="aspectFill" class="test"  />
@@ -10,6 +10,6 @@
 				<view class="bd_desc">¥ 9999</view>
 			</view>
 		</view>
-	</view>
+	</navigator>
 </view>
 <template is="hint" data="{{text:'没有更多了'}}"></template>

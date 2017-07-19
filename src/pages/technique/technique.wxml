@@ -1,38 +1,18 @@
 <import src="../template/navbar.wxml"  />
 <import src="../template/hint.wxml"  />
+<import src="../template/list.wxml"  />
+
 <view class="container">
 	<template is="navbar" data="{{navbar:navbar,currentTab:currentTab}}"></template>
+	<view style="height:90rpx;"></view>
 	<!-- currentTab==0 热门资讯 -->
 	<view class="lists-section" hidden="{{currentTab !==0 }}">
-		<view class="list_bd" wx:for="123456">
-			<view class="center list_content">
-				<view class="content__title">标题标题标题标题标题标题标题标题标题标题标题</view>
-				<view class="content__desc">
-					<text>出处：美推通讯</text>
-					<text>作者：AAA</text>
-					<text>半小时前</text>
-				</view>
-			</view>
-			<view class="right">
-				<image src="" mode="aspectFill" class="test"  />
-			</view>
-		</view>
+		<template is="list" ></template>	
 	</view>
 	<!-- currentTab==1 手机技巧 -->
 	<view class="lists-section" hidden="{{currentTab !==1 }}">
-		<view class="list_bd" wx:for="123456">
-			<view class="center list_content">
-				<view class="content__title">标题标题标题标题标题标题标题标题标题标题标题</view>
-				<view class="content__desc">
-					<text>出处：美推通讯</text>
-					<text>作者：AAA</text>
-					<text>4分钟前</text>
-				</view>
-			</view>
-			<view class="right">
-				<image src="" mode="aspectFill" class="test"  />
-			</view>
-		</view>
+		<template is="list" ></template>	
+		
 	</view>
 	<!-- currentTab==2 故障自查 -->
 	<view class="lists-section__group" hidden="{{currentTab !==2 }}">

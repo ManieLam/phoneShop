@@ -22,9 +22,12 @@
 
 #navbar {
     display: flex;
+    position: fixed;
+    width: 100%;
     height: 90rpx;
     line-height: 28rpx;
     padding: 0 15px;
+    box-sizing: border-box;
     background: $base_color;
     border-bottom: 1rpx solid $border_color;
     .item {
@@ -64,29 +67,36 @@
 }
 
 .scroll-box {
-    height: 100%;
+    // height: 100%;
     white-space: nowrap;
-    display: flex;
-    box-sizing: border-box;
+    // display: flex;
+    // flex-wrap: nowrap;
+    // align-items: center;
+    overflow-x: auto;
+    // box-sizing: border-box;
     width: 100%;
     height: 210rpx;
     padding: 10px 0;
-    overflow: hidden;
-    // image {
-    //     width: 33.33%;
-    //     height: 100%;
-    //     margin: 0 5px;
-    // }
+    image {
+        width: 28%;
+        height: 100%;
+        margin: 0 5rpx;
+    }
 }
 
 .scroll-content {
-    display: flex;
-    box-sizing: border-box;
-    width: 100%;
+    // display: flex;
+    // white-space: nowrap;
+    // overflow: auto;
+    // box-sizing: border-box;
+    // width: 100%;
+    display: inline-block;
+    margin: 0 5rpx;
     height: 100%;
-    image {
-        width: 33.33%;
-        height: 100%;
-        margin: 0 5px;
-    }
+    width: 28%;
+    // image {
+    //     width: 100%;
+    //     height: 100%;
+    //     margin: 0 5px;
+    // }
 }

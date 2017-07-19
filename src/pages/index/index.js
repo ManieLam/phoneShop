@@ -7,13 +7,16 @@ Page({
 
         banner: API.getStorageSync('banner'),
         weapp: API.getStorageSync('weapp'),
+        scrollData: [],
 
     },
 
     onLoad: function(options) {
         // 页面初始化 options为页面跳转所带来的参数
         that = this;
-
+        that.setData({
+            scrollData: ["../../images/test.jpeg", "../../images/test.jpeg", "../../images/test.jpeg", "../../images/test.jpeg", "../../images/test.jpeg", "../../images/test.jpeg", "../../images/test.jpeg"]
+        })
     },
     onShow: function() {
 

@@ -1,3 +1,4 @@
+<import src="../../utils/wxParse/wxParse.wxml"/>
 <view class="m-page__single">
 	<view class="single-header single-block">
 		<view class="header_swiper">

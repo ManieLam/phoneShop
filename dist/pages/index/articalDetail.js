@@ -1,9 +1,10 @@
 const wxParse = require("../../utils/wxParse/wxParse");
 const App = getApp();
 let that;
+
 Page({
     data: {
-        text: "Page shopDetail"
+        text: "Page articalDetail"
     },
     onLoad: function(options) {
         // 页面初始化 options为页面跳转所带来的参数
