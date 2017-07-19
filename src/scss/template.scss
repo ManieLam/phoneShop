@@ -1,0 +1,92 @@
+/*分界线*/
+
+.hint {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: #888;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    &__line {
+        width: 60px;
+        height: 1px;
+        border-bottom: 1rpx solid #ccc;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+
+/*navbar*/
+
+#navbar {
+    display: flex;
+    height: 90rpx;
+    line-height: 28rpx;
+    padding: 0 15px;
+    background: $base_color;
+    border-bottom: 1rpx solid $border_color;
+    .item {
+        flex: 1;
+        text-align: center;
+        font-weight: 500;
+        color: #cecece;
+    }
+    .item.active {
+        color: $font_desc_h;
+        position: relative;
+    }
+    .item.active:after {
+        content: '';
+        position: absolute;
+        display: block;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0 auto;
+        height: 8rpx;
+        width: 70%;
+        background-color: $navline;
+    }
+}
+
+
+/*scroll*/
+
+.swiper-box {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 210rpx;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.scroll-box {
+    height: 100%;
+    white-space: nowrap;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 210rpx;
+    padding: 10px 0;
+    overflow: hidden;
+    // image {
+    //     width: 33.33%;
+    //     height: 100%;
+    //     margin: 0 5px;
+    // }
+}
+
+.scroll-content {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    image {
+        width: 33.33%;
+        height: 100%;
+        margin: 0 5px;
+    }
+}
