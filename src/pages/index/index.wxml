@@ -29,7 +29,8 @@
 		<view class="con_section">
 			<view class="list_hd">
 				<view class="left">
-					<image src="../../images/list.png" mode="aspectFit"></image>
+					<!--<image src="../../images/list.png" mode="aspectFit"></image>-->
+					<view class="icon icon_list"></view>
 				</view>
 				<view class="center">服务范围</view>
 				<view class="right icon icon-arrow_down"></view>
@@ -45,7 +46,8 @@
 		<view class="con_section">
 			<view class="list_hd">
 				<view class="left">
-					<image src="../../images/photos.png" mode="aspectFit"></image>
+					<!--<image src="../../images/photos.png" mode="aspectFit"></image>-->
+					<view class="icon icon_photos"></view>	
 				</view>
 				<view class="center">照片相册</view>
 			</view>

@@ -1,3 +1,4 @@
+const testPic = "../../images/test.jpeg";
 const API = require("../../utils/api.js");
 const Auth = require("../../utils/auth.js");
 const App = getApp();
@@ -15,7 +16,7 @@ Page({
         // 页面初始化 options为页面跳转所带来的参数
         that = this;
         that.setData({
-            scrollData: ["../../images/test.jpeg", "../../images/test.jpeg", "../../images/test.jpeg", "../../images/test.jpeg", "../../images/test.jpeg", "../../images/test.jpeg", "../../images/test.jpeg"]
+            scrollData: [testPic, testPic, testPic, testPic, testPic, testPic, testPic]
         })
     },
     onShow: function() {
